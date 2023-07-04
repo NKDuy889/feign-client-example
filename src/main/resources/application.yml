@@ -1,0 +1,21 @@
+server:
+  port: 9999
+  tomcat:
+    protocol-header-https-value:
+
+spring:
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    url: jdbc:mariadb://10.10.151.188:3306/gaugau
+    username: meomeo
+    password: 123456
+
+#feign:
+#  client:
+#    config:
+
+
+
+api:
+  url:
+    local: http://localhost:9999
